@@ -1,0 +1,14 @@
+int myVariable = 50;
+
+        myVariable++;
+        myVariable--;
+
+Here,
+
+Int is a keyword
+
+myVariable = 50 is an expression
+
+And,
+
+Int myVariable = 50; is a statement.

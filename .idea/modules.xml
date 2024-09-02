@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeywordsAnExpressions/KeywordsAnExpressions.iml" filepath="$PROJECT_DIR$/KeywordsAnExpressions/KeywordsAnExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatementsWhiteSpaceAndIdenting/StatementsWhiteSpaceAndIdenting.iml" filepath="$PROJECT_DIR$/StatementsWhiteSpaceAndIdenting/StatementsWhiteSpaceAndIdenting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learning-java.iml" filepath="$PROJECT_DIR$/.idea/learning-java.iml" />
+    </modules>
+  </component>
+</project>
