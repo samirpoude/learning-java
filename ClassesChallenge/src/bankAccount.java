@@ -21,6 +21,20 @@ public class bankAccount {
         return number;
     }
 
+    public bankAccount(){
+        System.out.println("empty construtor called!");
+    }
+// using constructors
+    public bankAccount(int accountNumber, double accountBalance, String customerName, int number, String email ){
+        System.out.println("Account construtor with parameters called!");
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        String customerEmail = email;
+        int customerPhone = number;
+    }
+
+
     public int getAccountNumber(){
         return accountNumber;
     }
@@ -48,7 +62,7 @@ public class bankAccount {
 
     public void depositFund(double depositAmount){
         accountBalance+= depositAmount;
-        System.out.println("Deposit of $"+ depositAmount + " made. New balance = " + accountBalance);
+        System.out.println("Deposit of $"+ depositAmount + " made. New balance = $" + accountBalance);
 
     }
 
@@ -57,7 +71,7 @@ public class bankAccount {
             System.out.println("insufficient balance. you only have "+accountBalance+" in you account.");
         }else{
             accountBalance -=withdrawalAmount;
-            System.out.println("Withdrawal of $"+ withdrawalAmount + " processed, remaining balance" + accountBalance);
+            System.out.println("Withdrawal of $"+ withdrawalAmount + " processed, remaining balance $" + accountBalance);
         }
     }
 }
